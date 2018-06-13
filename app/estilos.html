@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estilos</title>
+
+    <style> /* ESTILOS CSS */
+    /* Mediante ID */
+    #tablita {
+        /* propiedad:valorDeLaPropiedad; */
+        border-style: solid;
+        border-width: 4px;
+        border-color: #000;
+    }
+
+    /* Mediante Etiqueta  */
+
+    table {
+        border-style: solid;
+        border-width: 4px;
+    }
+
+    td, th {
+        /* propiedad:valorDeLaPropiedad; */
+        border-style: solid;
+        border-width: 1px;
+        border-color: brown;
+    }
+
+    /* Mediante classes*/
+    .borde-cafe {
+        border-color: brown;
+    }
+
+    .borde-azul {
+        border-color: blue;
+    }
+
+
+    .rojo {
+        color: red;
+    }
+
+    .verde {
+        color: green;
+    }
+
+
+    </style>
+
+</head>
+<body>
+ctrl + alt + l
+
+
+<table id="tablita"
+       class="borde-cafe"
+       style="
+       border-color: greenyellow;
+       color: red;
+"
+>
+    <tr class="rojo">
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    <tr>
+        <td>Adrian</td>
+        <td>Sarzosa</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Vicente asdf asd fsad sadf sad fsad f adf sd fsaf sad fsadf sadf</td>
+        <td>Eguez</td>
+        <td>29</td>
+    </tr>
+</table>
+
+<table class="rojo verde borde-azul  ">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    <tr>
+        <td>Adrian</td>
+        <td>Sarzosa</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Vicente asdf asd fsad sadf sad fsad f adf sd fsaf sad fsadf sadf</td>
+        <td>Eguez</td>
+        <td>29</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
